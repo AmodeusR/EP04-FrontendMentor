@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: min(90%, 23rem);
+  padding: 2rem;
+  background: lightblue;
+
+  border-radius: 1em;
+}
+
+.format-margin {
+  margin: 0;
+}
+.card__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1em 1em 0 0;  
+}
