@@ -8,7 +8,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="main.css">
   
@@ -22,33 +22,38 @@
 </head>
 <body>
 
-  <div class="card">
-    <figure class="format-margin">
+  <div class="card flex-column">
+    <figure class="format-margin flex-column">
       <img class="card__image" src="./images/illustration-hero.svg" alt="illustration of a girl listening to a song and dancing">
     </figure>
-    <div class="card__main">
+    <div class="card__main flex-column">
       <h1 class="card__title">Order Summary</h1>
       <p class="card__text">
         You can now listen to millions of songs, audiobooks, and podcasts on any
         device anywhere you like!
       </p>
     </div>
-
+    
     <div class="card__product">
-      <div class="card__price">
-        Annual Plan
-        $59.99/year
+      <img class="card__icon" src="./images/icon-music.svg" alt="icon of icon-music" class="card__icon">
+      
+      <div class="card__price flex-column">
+        <p  class="price__title">Annual Plan</p>
+        <p class="price-tag">$59.99/year</p>
       </div>
     
       <div class="card__change">Change</div>
     </div>
+
     <button class="card__button">Proceed to Payment</button>
-    <button class="card__button">Cancel Order</button>
+    <button class="card__button-cancel">Cancel Order</button>
   </div>
   
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Amodeus r.</a>.
+    <p class="attribution__text">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/AmodeusR" target="_blank">Amodeus R.</a>
+    </p>
   </div>
 </body>
 </html>

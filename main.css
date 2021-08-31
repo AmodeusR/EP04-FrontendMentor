@@ -4,26 +4,162 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-pale-blue: hsl(225, 100%, 94%);
+  --primary-bright-blue: hsl(245, 75%, 52%);
+
+  --neutral-very-pale-blue: hsl(225, 100%, 98%);
+  --neutral-desaturated-blue: hsl(224, 23%, 55%);
+  --neutral-dark-blue: hsl(223, 47%, 23%);
+
+  --hover-state-color: hsl(245, 83%, 68%);
+}
+
 body {
   font-family: "Red Hat Display", sans-serif;
+  margin: 0;
   display: grid;
   place-items: center;
+  align-content: center;
+  gap: 2rem;
   min-height: 100vh;
+  background: url("./images/pattern-background-desktop.svg") no-repeat var(--primary-pale-blue);
+  background-size: 100vw;
 }
 
 .card {
-  width: min(90%, 23rem);
-  padding: 2rem;
-  background: lightblue;
-
+  background: white;
+  width: min(70%, 28rem);
+  padding: 3rem;
   border-radius: 1em;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .format-margin {
   margin: 0;
 }
+
+
 .card__image {
-  max-width: 100%;
-  height: auto;
+  overflow: hidden;
+  min-width: 100%;
+  margin-top: -3rem;
   border-radius: 1em 1em 0 0;  
 }
+
+.card__title {
+  color: var(--neutral-dark-blue);
+  font-weight: 900;
+}
+
+.card__text {
+  text-align: center;
+  color: var(--neutral-desaturated-blue);
+  margin: 0 auto 1rem;
+}
+
+.card__product {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  justify-content: space-around;
+  background: var(--neutral-very-pale-blue);
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: .5em;
+  margin: 1rem;
+} 
+
+.card__icon {
+  margin-left: 1rem;
+}
+
+.price__title,
+.price-tag {
+  margin: 0;
+}
+
+.price__title {
+  color: var(--neutral-dark-blue);
+  font-weight: 900;
+}
+
+.price-tag {
+  color: var(--neutral-desaturated-blue);
+}
+
+.card__change {
+  margin-left: auto;
+  margin-right: 1rem;
+  font-size: .8rem;
+
+  color: var(--primary-bright-blue);
+  text-decoration: underline;
+  font-weight: 700;
+
+  transition: 200ms;
+}
+
+
+.card__button {
+  width: 100%;
+  color: white;
+  font-weight: 900;
+  background: var(--primary-bright-blue);
+  border: none;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+  border-radius: .8em;
+  transition: 200ms;
+}
+
+.card__button-cancel {
+  font-weight: 900;
+  color: var(--neutral-desaturated-blue);
+  border: none;
+  background: none;
+  transition: 200ms;
+}
+
+.attribution__text {
+  color: var(--neutral-desaturated-blue);
+  font-weight: 700;
+}
+
+.attribution__text a {
+  font-weight: 900;
+  text-decoration: none;
+  transition: 200ms;
+}
+/* 
+  HOVER STATES
+*/
+
+.card__change:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--hover-state-color);
+}
+
+.card__button:hover {
+  background: var(--hover-state-color);
+  cursor: pointer;
+}
+
+.card__button-cancel:hover {
+  color: var(--neutral-dark-blue);
+  cursor: pointer;
+}
+
+.attribution__text a:hover {
+  color: var(--hover-state-color);
+}
+
+
