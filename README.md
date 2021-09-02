@@ -4,7 +4,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 <h3 align="center">Languages</h3>
 <p align="center">
-  <a href="#">English</a> • <a href="#">Português (Indisponível no momento)</a>
+  <a href="#">English</a> • <a href="./lang/README.pt-br.md">Português</a>
 </p>
 
 
@@ -53,7 +53,7 @@ Users should be able to:
 
 ### What I learned
 
-I reinforced my knowledge about Flexbox and Responsive Layout, aiming for a reasonably good UI for basically all screen sizes with minimum Media Queries.
+I reinforced my knowledge about Flexbox and Responsive Layout, aiming for a reasonably good UI for basically all screen sizes with minimum use of Media Queries.
 
 I racked my head to make the image "ignore" the card's padding while being responsive. It was either getting smaller than the div card or wouldn't shrink in smaller screens. Also, I was trying not to use absolute positioning, so I came up with this solution using Flexbox and CSS Calc Function.
 
