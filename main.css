@@ -81,7 +81,7 @@ body {
   justify-content: space-around;
   background: var(--neutral-very-pale-blue);
   width: 100%;
-  padding: 1rem 0;
+  padding: .7rem 0;
   border-radius: .5em;
   margin: 1rem;
 } 
@@ -180,10 +180,25 @@ body {
   html {
     font-size: 12px;
   }
+
+  .card {
+    padding: 2rem;
+  }
+
+  .card__image {
+    width: calc(100% + 4rem);
+  }
   
   .attribution {
-    display: flex;
     max-width: 90%;
+  }
+
+}
+
+@media (max-height: 50em) and (min-width: 35em) {
+  body {
+    transform: scale(0.8);
+    height: max(100vh, 600px);
   }
 
 }
