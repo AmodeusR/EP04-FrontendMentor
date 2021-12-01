@@ -1,13 +1,11 @@
 # Frontend Mentor - Order Summary Card Solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 <h3 align="center">Languages</h3>
 <p align="center">
   <a href="#">English</a> • <a href="./lang/README.pt-br.md">Português</a>
 </p>
-
-
 
 ## Table of contents
 
@@ -33,9 +31,6 @@ Users should be able to:
 | Desktop View (1280px) | iPad View (768px) | iPhone View (375px) |
 |---------|-------|------|
 |![Desktop View (1280px)](./screenshots/desktop-1280px-screen.png)|![iPad View (768px)](./screenshots/ipad-768px-screen.png)|![iPhone View (375px)](./screenshots/iphone-375px-screen.png)|
-
-
-
 
 ### Links
 
@@ -64,6 +59,7 @@ I racked my head to make the image "ignore" the card's padding while being respo
   </figure>
 [...]
 ```
+
 ```css
 .card__image {
   width: calc(100% + 6rem);
@@ -76,5 +72,3 @@ I racked my head to make the image "ignore" the card's padding while being respo
 
 - Github - [@AmodeusR](https://www.your-site.com)
 - Frontend Mentor - [@AmodeusR](https://www.frontendmentor.io/profile/AmodeusR)
-
-
