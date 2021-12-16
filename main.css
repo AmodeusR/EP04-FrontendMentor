@@ -138,6 +138,9 @@ body {
   transition: 200ms;
 }
 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
 .attribution__text {
   color: var(--neutral-desaturated-blue);
   font-weight: 700;
@@ -148,6 +151,7 @@ body {
   text-decoration: none;
   transition: 200ms;
 }
+
 /* 
   HOVER STATES
 */

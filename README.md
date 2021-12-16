@@ -30,7 +30,7 @@ Users should be able to:
 
 | Desktop View (1280px) | iPad View (768px) | iPhone View (375px) |
 |---------|-------|------|
-|![Desktop View (1280px)](./screenshots/desktop-1280px-screen.png)|![iPad View (768px)](./screenshots/ipad-768px-screen.png)|![iPhone View (375px)](./screenshots/iphone-375px-screen.png)|
+|![Desktop View (1280px)](./page-models/desktop.png)|![iPad View (768px)](./page-models/ipad.png)|![iPhone View (375px)](./page-models/mobile-iphone.png)|
 
 ### Links
 
