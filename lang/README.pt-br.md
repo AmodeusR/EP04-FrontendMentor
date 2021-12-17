@@ -7,8 +7,6 @@ Esta é uma solução ao [desafio Cartão de Sumário de Compra do Frontend Ment
 <a href="../README.md">English</a> • <a href="#">Português</a>
 </p>
 
-
-
 ## Índice
 
 - [Visão Geral](#visão-geral)
@@ -32,10 +30,7 @@ Usuários devem ser capazes de:
 
 | Tela Desktop (1280px) | Tela iPad (768px) | Tela iPhone (375px) |
 |---------|-------|------|
-|![Desktop View (1280px)](../screenshots/desktop-1280px-screen.png)|![iPad View (768px)](../screenshots/ipad-768px-screen.png)|![iPhone View (375px)](../screenshots/iphone-375px-screen.png)|
-
-
-
+|![Desktop View (1280px)](../page-models/desktop.png)|![iPad View (768px)](../page-models/ipad.png)|![iPhone View (375px)](../page-models/mobile-iphone.png)|
 
 ### Links
 
@@ -64,6 +59,7 @@ Eu quebrei minha cabeça para fazer a imagem "ignorar" o padding do cartão enqu
   </figure>
 [...]
 ```
+
 ```css
 .card__image {
   width: calc(100% + 6rem);
@@ -76,5 +72,3 @@ Eu quebrei minha cabeça para fazer a imagem "ignorar" o padding do cartão enqu
 
 - Github - [@AmodeusR](https://www.your-site.com)
 - Frontend Mentor - [@AmodeusR](https://www.frontendmentor.io/profile/AmodeusR)
-
-

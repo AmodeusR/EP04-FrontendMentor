@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github Pages](https://amodeusr.github.io/EP04-FrontendMentor/)
+- Live Site URL: [Github Pages](https://amodeusr.github.io/FM--order-summary-card/)
 
 ## My process
 
