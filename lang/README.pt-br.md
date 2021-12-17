@@ -34,7 +34,7 @@ Usuários devem ser capazes de:
 
 ### Links
 
-- URL para o Site: [Github Pages](https://amodeusr.github.io/EP04-FrontendMentor/)
+- URL para o Site: [Github Pages](https://amodeusr.github.io/FM--testimonials-grid-section/)
 
 ## Meu processo
 
